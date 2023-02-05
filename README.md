@@ -35,8 +35,9 @@
 
 ### Docker
 
-1. Run `docker compose start`.
-2. If you want to run the app once run `docker compose run erc20-token-balance-tracker python erc20_token_balances.py --addresses "[address_1, address_2, address_3]"`.
+1. Run `docker compose up`.
+2. Run `docker compose start`.
+3. If you want to run the app once run `docker compose run erc20-token-balance-tracker python erc20_token_balances.py --addresses "[address_1, address_2, address_3]"`.
    Else if you want it to run once every day run `docker compose run erc20-token-balance-tracker python erc20_token_balances_schedule.py --addresses "[address_1, address_2, address_3]"`.
 
    Examples:
